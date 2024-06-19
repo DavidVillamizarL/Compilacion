@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    margin: 0 auto;
+}
+
+:root{
+    --padding: 10px;
+}
+
+body{
+    height: 100vh;
+    background-image: url(Imagenes/desktop-wallpaper-dragon-ball-z-scenery-planet-namek.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.219);
+    color: aliceblue;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 3.9%;
+}
+
+.card{
+    display: inline-block;
+    height: 380px;
+    max-width: 330px;
+    margin: 10px;
+    margin-top: 25px;
+    transition: 300ms;
+    padding: 13px;
+    background-color: rgb(3, 0, 44);
+    border-radius: 5%;
+
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+    margin-top: -20px;
+
+}
+
+.RR_19{
+    height: 240px;
+    margin-top: 2px;
+}
+
+.RR_13{
+    margin-bottom: 11px;
+    padding-top: var(--padding);
+}
+
+.RR_16{
+    margin-bottom: 11px;
+}
+
+.bills{
+    height: 240px;
+    margin-top: 1px;
+}
+
+.bulma {
+    margin-top: 1px;
+    height: 240px;
+}
+
+.buu{
+    height: 240px;
+    margin-top: 2px;
+}
+
+.cell{
+    padding-top: var(--padding);
+}
+
+.Milk{
+    padding-top: var(--padding);
+}
+
+.Namek{
+    padding-top: var(--padding);
+}
+
+.dodo{
+    padding-top: var(--padding);
+}
+
+.Freezer{
+    padding-top: var(--padding);
+}
+
+.ginyu{
+    padding-top: var(--padding);
+}
+
+
+
+
+
+
+h2{
+    margin-bottom: 6px;
+}
+
+.card:hover{
+    height: 450px;
+    background-color: #000000;
+    border-radius: 50px;
+    transition: 300ms;
+    
+}
+
+img:hover{
+   
+    height: 300px;
+    transform: translateY(-50px);
+    
+    filter: drop-shadow(30px 10px 4px #4444dd);
+    transition: 300ms;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 auto;
+}
+
+
+ .nav{
+    width: 100%;
+    height: 100%;
+    background-image: url(Imagenes/360_F_603604052_ymJlfUg5aemPj2iEqHqeMgUwBwrW5gQN.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+
+.titulo {
+   text-align: center;
+   font-size: 60px;
+ }
+
+ ul{
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    
+ }
+
+ li{
+    padding-left: 30px;
+ }
+
+
+ a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+ } 
+
+ .custom{
+    height: 20px;
+    width: 20px;
+    
+ }
+
+ .formulario{
+    height: 20px;
+    width: 20px;
+    
+ }
+ 
+ .tarjetas{
+    height: 20px;
+    width: 20px;
+    
+ }
+
+ .galeria{
+    height: 20px;
+    width: 20px;
+    
+ }
+
+
+ .custom:hover{
+    background-image: url(Imagenes/54f01e941b397d2a4684e7ac6c3bf25e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    color: white;
+    transition: 300ms;
+
+ }
+
+ .tarjetas:hover{
+    background-image: url(Imagenes/54f01e941b397d2a4684e7ac6c3bf25e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    color: white;
+    transition: 300ms;
+
+ }
+
+ .formulario:hover{
+    background-image: url(Imagenes/54f01e941b397d2a4684e7ac6c3bf25e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    color: white;
+    transition: 300ms;
+
+ }
+
+ .galeria:hover{
+    background-image: url(Imagenes/54f01e941b397d2a4684e7ac6c3bf25e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    color: white;
+    transition: 300ms;
+
+ }
+

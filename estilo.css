@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(Imagenes/360_F_603604052_ymJlfUg5aemPj2iEqHqeMgUwBwrW5gQN.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenido{
+    position: absolute;
+    width: 1500px;
+    height: 400px;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(240, 248, 255, 0.322);
+    text-align: center;
+    line-height: 400px;
+    top: 30%;
+    left: 10%;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 auto;
+}
+
+
+ .nav{
+    width: 100%;
+    height: 100%;
+    background-image: url(Imagenes/360_F_591976463_KMZyV6obpsrN2bJJJkYW0bzoH2XxLTlA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+
+.titulo {
+   text-align: center;
+   font-size: 60px;
+ }
+
+ ul{
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    
+ }
+
+ li{
+    padding-left: 30px;
+ }
+
+
+ a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+ } 
+
+ .custom{
+    height: 20px;
+    width: 20px;
+    
+ }
+
+ .formulario{
+    height: 20px;
+    width: 20px;
+    
+ }
+ 
+ .tarjetas{
+    height: 20px;
+    width: 20px;
+    
+ }
+
+ .galeria{
+    height: 20px;
+    width: 20px;
+    
+ }
+
+
+ .custom:hover{
+    background-image: url(Imagenes/54f01e941b397d2a4684e7ac6c3bf25e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    color: white;
+    transition: 300ms;
+
+ }
+
+ .tarjetas:hover{
+    background-image: url(Imagenes/54f01e941b397d2a4684e7ac6c3bf25e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    color: white;
+    transition: 300ms;
+
+ }
+
+ .formulario:hover{
+    background-image: url(Imagenes/54f01e941b397d2a4684e7ac6c3bf25e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    color: white;
+    transition: 300ms;
+
+ }
+
+ .galeria:hover{
+    background-image: url(Imagenes/54f01e941b397d2a4684e7ac6c3bf25e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    color: white;
+    transition: 300ms;
+
+ }
+
+
+.contenido:hover{
+    background-color: aliceblue;
+    font-size: 80px;
+    transform: translateY(-50px);
+    transition: 300ms;
+
+}
+
+.video{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 33%;
+    top: 80%;
+   
+}

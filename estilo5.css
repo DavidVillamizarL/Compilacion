@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  form{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    background: #f2f2f2;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+  }
+  .form_title{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  input{
+    display: block;
+  }
+  input[type="text"], input[type="email"]{
+    width: 100%;
+    padding: 12px 5px;
+    border: none;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  input[type="checkbox"]{
+    display: inline;
+  }
+  input:focus{
+    color: black;
+    background-color: rgb(255, 0, 0);
+  }
+  input::placeholder{
+    color: rgb(0, 0, 0);
+  }
+  input[type="checkbox"]:checked +label{
+    color: rgb(255, 7, 7);
+  }
+  
+  .evento{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: crimson;
+    color: white;
+    text-decoration-line: none;
+  }
+  .evento:active{
+    padding: 23px;
+    transition: 0.3s;
+  }
+  .box{
+    width: 100px;
+    height: 100px;
+    background-color: steelblue;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: 0.3s;
+      margin: auto;
+  }
+  #objetivo:target{
+    border-radius: 50%;
+    margin: auto;
+  }
+
+  ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 auto;
+}
+
+
+ .nav{
+    width: 100%;
+    height: 100%;
+    background-image: url(Imagenes/360_F_591976463_KMZyV6obpsrN2bJJJkYW0bzoH2XxLTlA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+
+.titulo {
+   text-align: center;
+   font-size: 60px;
+ }
+
+ ul{
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    
+ }
+
+ li{
+    padding-left: 30px;
+ }
+
+
+ a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+ } 
+
+ .custom{
+    height: 20px;
+    width: 20px;
+    
+ }
+
+ .formulario{
+    height: 20px;
+    width: 20px;
+    
+ }
+ 
+ .tarjetas{
+    height: 20px;
+    width: 20px;
+    
+ }
+
+ .galeria{
+    height: 20px;
+    width: 20px;
+    
+ }
+
+
+ .custom:hover{
+    background-image: url(Imagenes/54f01e941b397d2a4684e7ac6c3bf25e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    color: white;
+    transition: 300ms;
+
+ }
+
+ .tarjetas:hover{
+    background-image: url(Imagenes/54f01e941b397d2a4684e7ac6c3bf25e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    color: white;
+    transition: 300ms;
+
+ }
+
+ .formulario:hover{
+    background-image: url(Imagenes/54f01e941b397d2a4684e7ac6c3bf25e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    color: white;
+    transition: 300ms;
+
+ }
+
+ .galeria:hover{
+    background-image: url(Imagenes/54f01e941b397d2a4684e7ac6c3bf25e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    color: white;
+    transition: 300ms;
+
+ }
+
